@@ -97,9 +97,6 @@
                                         <input type="text" class="form-control" id="alamat"
                                                placeholder="Alamat Rumah Anda" name="address" required>
                                     </div>
-                                    <a href="<?php echo base_url('index.php/page'); ?>" type="submit"
-                                       class="btn btn-danger">Cancel</a>
-                                    <button type="submit" class="btn btn-info">Next</button>
                                 </div>
                             </section>
                         </div>
@@ -120,6 +117,9 @@
                             <?php } ?>
                         </div>
                     </div>
+                    <a href="<?php echo base_url('index.php/page'); ?>" type="submit"
+                       class="btn btn-danger">Cancel</a>
+                    <button type="submit" class="btn btn-info">Next</button>
                 </section>
             </form>
             <!-- Start: Kuesioner-->

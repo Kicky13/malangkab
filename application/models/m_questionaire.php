@@ -44,10 +44,11 @@ class M_questionaire extends CI_Model {
         );
         return $data;
     }
-    public function submitResponse($respondent, $periode, $question, $value)
+    public function submitResponse($site, $respondent, $periode, $question, $value)
     {
         $data = array(
             'response_id' => null,
+            'site_id' => $site,
             'respondent_id' => $respondent,
             'periode_id' => $periode,
             'question_id' => $question,
@@ -59,5 +60,10 @@ class M_questionaire extends CI_Model {
     {
         $data = $this->db->query('SELECT * FROM sites')->result_array();
         return $data;
+    }
+    public function getUrl($site)
+    {
+        $data = $this->db->query('SELECT * FROM sites WHERE site_id = '.$site)->result_array();
+        return $data[0]['site_url'];
     }
 }

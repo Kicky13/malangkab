@@ -76,11 +76,11 @@
                 <div class="col-lg-12">
                     <section class="panel">
                         <header class="panel-heading">
-                            Berikut Web Pemerintah Kabupaten Malang.
+                            Berikut Tampilan Website yang akan anda nilai.
                         </header>
                         <div class="panel-body">
                             <section id="unseen">
-                                <iframe src="http://malangkab.go.id/" width="100%" height="350px"></iframe>
+                                <iframe src="<?php echo $bio['url']; ?>" width="100%" height="350px"></iframe>
                             </section>
                         </div>
                     </section>
@@ -100,6 +100,7 @@
                             <input name="name" type="hidden" value="<?php echo $bio['name']; ?>">
                             <input name="age" type="hidden" value="<?php echo $bio['age']; ?>">
                             <input name="address" type="hidden" value="<?php echo $bio['address']; ?>">
+                            <input name="web" type="hidden" value="<?php echo $bio['web']; ?>">
                             <input name="label" type="hidden" value="PUB">
                             <div class="panel-body">
                                 <section id="unseen">

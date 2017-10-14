@@ -6,6 +6,7 @@ class Dashboard extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
+        $this->load->model('m_sites');
         $this->load->library('session');
     }
 
@@ -15,7 +16,8 @@ class Dashboard extends CI_Controller {
             if ($_SESSION['level'] == 1){
                 $this->load->view('superadmin/dashboard');
             } else if ($_SESSION['level'] == 2){
-                $this->load->view('admin/dashboard');
+                $site = $this->m_sites->getSites();
+                $this->load->view('admin/dashboard', array('sites' => $site));
             } else {
                 echo 'Forbidden Access';
             }
