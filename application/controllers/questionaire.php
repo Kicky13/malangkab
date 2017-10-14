@@ -15,9 +15,8 @@ class Questionaire extends CI_Controller
     {
         if (isset($_SESSION['loggedIn'])) {
             if ($_SESSION['level'] == 2) {
-                $data = $this->m_questionaire->getQuestion();
-                $profil = $this->m_questionaire->getProfile($_SESSION['id']);
-                $this->load->view('admin/questionnaire', array('data' => $data, 'profile' => $profil));
+                $web = $this->m_questionaire->getWeb();
+                $this->load->view('admin/web', array('web' => $web));
             } else {
                 echo 'Forbidden Access';
             }
@@ -26,6 +25,22 @@ class Questionaire extends CI_Controller
             $this->load->view('public/bio', array('web' => $web));
         }
     }
+
+    public function adminQuestionaire($web)
+    {
+        if (isset($_SESSION['loggedIn'])) {
+            if ($_SESSION['level'] == 2) {
+                $data = $this->m_questionaire->getQuestion();
+                $profil = $this->m_questionaire->getProfile($_SESSION['id'], $web);
+                $this->load->view('admin/questionnaire', array('data' => $data, 'profile' => $profil));
+            } else {
+                echo 'Forbidden Access';
+            }
+        } else {
+            redirect('/login');
+        }
+    }
+
     public function response()
     {
         $name = $_POST['name'];

@@ -27,10 +27,10 @@ class M_questionaire extends CI_Model {
         $id = $this->db->query('SELECT * FROM respondents ORDER BY respondent_id DESC')->result_array();
         return $id[0]['respondent_id'];
     }
-    public function getProfile($id)
+    public function getProfile($id, $web)
     {
         $profile = $this->db->query('SELECT * FROM administrator WHERE admin_id = '.$id)->result_array();
-        $cek = $this->db->query('SELECT * FROM respondents WHERE respondent_name = "'.$profile[0]['admin_name'].'" AND respondent_label = "ADM"')->num_rows();
+        $cek = $this->db->query('SELECT * FROM respondents rp JOIN response r ON rp.respondent_id = r.respondent_id WHERE respondent_name = "'.$profile[0]['admin_name'].'" AND respondent_label = "ADM" AND site_id = '.$web)->num_rows();
         if ($cek >= 1){
             $status = 'Nonactive';
         } else {
@@ -40,7 +40,8 @@ class M_questionaire extends CI_Model {
             'name' => $profile[0]['admin_name'],
             'age' => 0,
             'address' => $profile[0]['admin_address'],
-            'status' => $status
+            'status' => $status,
+            'web' => $web
         );
         return $data;
     }

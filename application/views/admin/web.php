@@ -152,13 +152,7 @@
         </nav>
         <div class="content">
             <div class="container-fluid">
-                <section id="alert" <?php echo ($profile['status'] == 'Nonactive') ? "" : "hidden"; ?>>
-                    <div class="header text-center">
-                        <h3 class="title">Anda Telah Mengisi Kuesioner</h3>
-                        <p class="category">Kembali lagi pada periode selanjutnya</p>
-                    </div>
-                </section>
-                <section id="question" <?php echo ($profile['status'] == 'Active') ? "" : "hidden"; ?>>
+                <section>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
@@ -167,85 +161,33 @@
                                 </div>
                                 <h4 class="card-title">Questionnaire</h4>
                                 <div class="card-content">
-                                    <form role="form"
-                                          action="<?php echo base_url('index.php/questionaire/submitResponse'); ?>"
-                                          method="post">
-                                        <input name="name" type="hidden" value="<?php echo $profile['name']; ?>">
-                                        <input name="age" type="hidden" value="<?php echo ''; ?>">
-                                        <input name="address" type="hidden" value="<?php echo $profile['address']; ?>">
-                                        <input name="web" type="hidden" value="<?php echo $profile['web']; ?>">
-                                        <input name="label" type="hidden" value="ADM">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>City</th>
+                                                <th>URL</th>
+                                                <th class="text-center">Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <?php $no = 1;
+                                            foreach ($web as $row) { ?>
                                                 <tr>
-                                                    <th class="text-center">#</th>
-                                                    <th>Question</th>
-                                                    <th>SS</th>
-                                                    <th>S</th>
-                                                    <th>N</th>
-                                                    <th>TS</th>
-                                                    <th>STS</th>
+                                                    <td><?php echo $no++; ?></td>
+                                                    <td><?php echo $row['site_city']; ?></td>
+                                                    <td><?php echo $row['site_url']; ?></td>
+                                                    <td class="text-center">
+                                                        <a href="<?php echo base_url('index.php/questionaire/adminQuestionaire/'.$row['site_id']); ?>" class="btn btn-info btn-round">
+                                                            Go <i class="material-icons">trending_flat</i>
+                                                        </a>
+                                                    </td>
                                                 </tr>
-                                                </thead>
-                                                <tbody>
-                                                <?php $no = 1;
-                                                foreach ($data as $row) { ?>
-                                                    <tr>
-                                                        <td class="text-center"><?php echo $no++; ?></td>
-                                                        <td><?php echo $row['question_content']; ?></td>
-                                                        <td>
-                                                            <div class="radio">
-                                                                <label>
-                                                                    <input required type="radio"
-                                                                           name="<?php echo $row['question_label']; ?>"
-                                                                           value="5">
-                                                                </label>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="radio">
-                                                                <label>
-                                                                    <input required type="radio"
-                                                                           name="<?php echo $row['question_label']; ?>"
-                                                                           value="4">
-                                                                </label>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="radio">
-                                                                <label>
-                                                                    <input required type="radio"
-                                                                           name="<?php echo $row['question_label']; ?>"
-                                                                           value="3">
-                                                                </label>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="radio">
-                                                                <label>
-                                                                    <input required type="radio"
-                                                                           name="<?php echo $row['question_label']; ?>"
-                                                                           value="2">
-                                                                </label>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="radio">
-                                                                <label>
-                                                                    <input type="radio"
-                                                                           name="<?php echo $row['question_label']; ?>"
-                                                                           value="1">
-                                                                </label>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                <?php } ?>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <button type="submit" class="btn btn-info btn-round">Submit</button>
-                                    </form>
+                                            <?php } ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
