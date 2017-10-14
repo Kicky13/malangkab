@@ -55,4 +55,9 @@ class M_questionaire extends CI_Model {
         );
         $this->db->insert('response', $data);
     }
+    public function getWeb()
+    {
+        $data = $this->db->query('SELECT * FROM sites')->result_array();
+        return $data;
+    }
 }

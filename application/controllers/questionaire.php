@@ -17,13 +17,13 @@ class Questionaire extends CI_Controller
             if ($_SESSION['level'] == 2) {
                 $data = $this->m_questionaire->getQuestion();
                 $profil = $this->m_questionaire->getProfile($_SESSION['id']);
-//                print json_encode($profil);
                 $this->load->view('admin/questionnaire', array('data' => $data, 'profile' => $profil));
             } else {
                 echo 'Forbidden Access';
             }
         } else {
-            $this->load->view('public/bio');
+            $web = $this->m_questionaire->getWeb();
+            $this->load->view('public/bio', array('web' => $web));
         }
     }
     public function response()

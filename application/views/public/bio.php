@@ -72,15 +72,16 @@
                 </div>
             </div>
             <!-- start:Form Biodata -->
-            <section id="biodata">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <section class="panel">
-                            <header class="panel-heading">
-                                Masukkan Biodata singkat anda sebelum mengisi kuesioner
-                            </header>
-                            <div class="panel-body">
-                                <form role="form" method="post" action="<?php echo base_url('index.php/questionaire/response'); ?>">
+            <form role="form" method="post"
+                  action="<?php echo base_url('index.php/questionaire/response'); ?>">
+                <section id="biodata">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <section class="panel">
+                                <header class="panel-heading">
+                                    Masukkan Biodata singkat anda sebelum mengisi kuesioner
+                                </header>
+                                <div class="panel-body">
                                     <div class="form-group">
                                         <label for="nama">Nama</label>
                                         <input type="text" class="form-control" id="nama"
@@ -96,14 +97,31 @@
                                         <input type="text" class="form-control" id="alamat"
                                                placeholder="Alamat Rumah Anda" name="address" required>
                                     </div>
-                                    <a href="<?php echo base_url('index.php/page'); ?>" type="submit" class="btn btn-danger">Cancel</a>
+                                    <a href="<?php echo base_url('index.php/page'); ?>" type="submit"
+                                       class="btn btn-danger">Cancel</a>
                                     <button type="submit" class="btn btn-info">Next</button>
-                                </form>
-                            </div>
-                        </section>
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                </div>
-            </section>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <?php foreach ($web as $value) { ?>
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <header class="panel-title">
+                                            <input required type="radio" name="web" value="<?php echo $value['site_id']; ?>"> <?php echo $value['site_name']; ?>
+                                        </header>
+                                    </div>
+                                    <div class="panel-body">
+                                        <iframe src="<?php echo $value['site_url']; ?>" width="100%" height="100%"></iframe>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </section>
+            </form>
             <!-- Start: Kuesioner-->
         </div>
     </div>
