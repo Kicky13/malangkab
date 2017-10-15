@@ -203,7 +203,13 @@
                             <div class="card-header card-header-icon" data-background-color="rose">
                                 <i class="material-icons">assignment</i>
                             </div>
-                            <h4 class="card-title">View Respondents</h4>
+                            <h4 class="card-title"> View Respondents
+                                <select name="dimension" class="selectpicker"
+                                        data-style="btn btn-primary btn-round" title="Single Select"
+                                        data-size="7" required>
+                                    <option disabled selected>Choose a City</option>
+                                </select>
+                            </h4>
                             <div class="card-content">
                                 <div class="table-responsive">
                                     <table class="table">

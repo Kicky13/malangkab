@@ -11,55 +11,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="suggest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php">
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4488">
-              <caret line="264" column="78" lean-forward="false" selection-start-line="264" selection-start-column="78" selection-end-line="264" selection-end-column="78" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m_suggest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
+      <file leaf-file-name="responseView.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="140" lean-forward="false" selection-start-line="48" selection-start-column="140" selection-end-line="48" selection-end-column="140" />
+            <state relative-caret-position="550">
+              <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionAdd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionAdd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="200" column="44" lean-forward="true" selection-start-line="200" selection-start-column="44" selection-end-line="205" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1418">
+              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
-                <marker date="1507859139938" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
-                <marker date="1507859139938" expanded="true" signature="510:639" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="510:640" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="510:667" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="510:668" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="510:669" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="897:1057" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="1288:1474" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="1705:1866" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="2200:2362" ph="SELECT * FRO... question_analysis" />
-                <marker date="1507859139938" expanded="true" signature="2426:2470" ph="SELECT * FRO... dimension" />
-                <marker date="1507859139938" expanded="true" signature="2426:2471" ph="SELECT * FRO... dimension" />
+                <marker date="1507684774553" expanded="true" signature="264:315" ph="SELECT * FRO... respondents" />
+                <marker date="1507684774553" expanded="true" signature="446:573" ph="SELECT * FRO... response" />
+                <marker date="1507684774553" expanded="true" signature="693:741" ph="SELECT * FRO... respondents" />
+                <marker date="1507684774553" expanded="true" signature="975:1016" ph="SELECT * FRO... periode" />
+                <marker date="1507684774553" expanded="true" signature="1401:1543" ph="SELECT * FRO... respondents" />
+                <marker date="1507684774553" expanded="true" signature="1592:1734" ph="SELECT * FRO... respondents" />
+                <marker date="1507684774553" expanded="true" signature="1986:2030" ph="SELECT * FRO... question" />
+                <marker date="1507684774553" expanded="true" signature="2186:2281" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507684774553" expanded="true" signature="3240:3291" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507684774553" expanded="true" signature="3793:3837" ph="SELECT * FRO... question" />
+                <marker date="1507684774553" expanded="true" signature="3934:4156" ph="SELECT SUM(r... response" />
+                <marker date="1507684774553" expanded="true" signature="4214:4436" ph="SELECT SUM(r... response" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suggestion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suggestDetail.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="208" column="640" lean-forward="false" selection-start-line="208" selection-start-column="640" selection-end-line="208" selection-end-column="640" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +73,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,7 +84,6 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/controllers/page.php" />
-        <option value="$PROJECT_DIR$/application/controllers/dashboard.php" />
         <option value="$PROJECT_DIR$/application/models/m_login.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
         <option value="$PROJECT_DIR$/application/models/m_admin.php" />
@@ -94,7 +94,6 @@
         <option value="$PROJECT_DIR$/application/views/cover.php" />
         <option value="$PROJECT_DIR$/application/controllers/questionare.php" />
         <option value="$PROJECT_DIR$/application/controllers/periode.php" />
-        <option value="$PROJECT_DIR$/application/views/public/bio.php" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/application/models/m_periode.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/adminEdit.php" />
@@ -109,21 +108,26 @@
         <option value="$PROJECT_DIR$/application/controllers/response.php" />
         <option value="$PROJECT_DIR$/application/models/m_response.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/responseDetail.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
         <option value="$PROJECT_DIR$/application/controllers/report.php" />
         <option value="$PROJECT_DIR$/application/models/m_report.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
-        <option value="$PROJECT_DIR$/application/controllers/questionaire.php" />
-        <option value="$PROJECT_DIR$/application/models/m_questionaire.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/questionnaire.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/analysis.php" />
-        <option value="$PROJECT_DIR$/application/views/public/questionaire.php" />
         <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
         <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
+        <option value="$PROJECT_DIR$/application/views/public/web.php" />
+        <option value="$PROJECT_DIR$/application/views/public/bio.php" />
+        <option value="$PROJECT_DIR$/application/views/public/questionaire.php" />
+        <option value="$PROJECT_DIR$/application/controllers/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/models/m_sites.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/controllers/questionaire.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/web.php" />
+        <option value="$PROJECT_DIR$/application/models/m_questionaire.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/questionnaire.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
       </list>
     </option>
   </component>
@@ -170,6 +174,12 @@
               <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
               <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -195,7 +205,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,19 +250,24 @@
       <workItem from="1507812591245" duration="66000" />
       <workItem from="1507846227888" duration="5902000" />
       <workItem from="1507952359479" duration="150000" />
-      <workItem from="1507952574222" duration="93000" />
+      <workItem from="1507952574222" duration="770000" />
+      <workItem from="1507953390931" duration="245000" />
+      <workItem from="1507953677882" duration="862000" />
+      <workItem from="1507972755187" duration="13960000" />
+      <workItem from="1508026811299" duration="1776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103865000" />
+    <option name="totallyTimeSpent" value="121385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -279,27 +295,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="42" lean-forward="true" selection-start-line="212" selection-start-column="42" selection-end-line="212" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="226" column="101" lean-forward="false" selection-start-line="226" selection-start-column="101" selection-end-line="226" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="103" lean-forward="false" selection-start-line="198" selection-start-column="103" selection-end-line="198" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/dimension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -354,13 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -420,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/public/bio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -445,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="132" column="103" lean-forward="false" selection-start-line="132" selection-start-column="103" selection-end-line="132" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -490,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-177">
@@ -518,45 +478,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="93" column="72" lean-forward="false" selection-start-line="93" selection-start-column="72" selection-end-line="93" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/questionnaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="157" column="71" lean-forward="false" selection-start-line="157" selection-start-column="71" selection-end-line="157" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/questionaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_questionaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -574,24 +499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="240" column="22" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="240" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_periode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/public/questionaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="82" column="94" lean-forward="false" selection-start-line="82" selection-start-column="94" selection-end-line="82" selection-end-column="94" />
         </state>
       </provider>
     </entry>
@@ -602,47 +513,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="140" lean-forward="false" selection-start-line="48" selection-start-column="140" selection-end-line="48" selection-end-column="140" />
-          <folding>
-            <marker date="1507859139938" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
-            <marker date="1507859139938" expanded="true" signature="510:639" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="510:640" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="510:667" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="510:668" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="510:669" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="897:1057" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="1288:1474" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="1705:1866" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="2200:2362" ph="SELECT * FRO... question_analysis" />
-            <marker date="1507859139938" expanded="true" signature="2426:2470" ph="SELECT * FRO... dimension" />
-            <marker date="1507859139938" expanded="true" signature="2426:2471" ph="SELECT * FRO... dimension" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="232" column="42" lean-forward="true" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="315">
           <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="264" column="78" lean-forward="false" selection-start-line="264" selection-start-column="78" selection-end-line="264" selection-end-column="78" />
+        <state relative-caret-position="17">
+          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <marker date="1507953287603" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
+            <marker date="1507953287603" expanded="true" signature="510:639" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="510:640" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="510:667" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="510:668" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="510:669" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="897:1057" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="1288:1474" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="1705:1866" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="2200:2362" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="2426:2470" ph="SELECT * FRO... dimension" />
+            <marker date="1507953287603" expanded="true" signature="2426:2471" ph="SELECT * FRO... dimension" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/web.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/public/bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="109" column="76" lean-forward="true" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/questionaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="208" column="640" lean-forward="false" selection-start-line="208" selection-start-column="640" selection-end-line="208" selection-end-column="640" />
+          <caret line="146" column="13" lean-forward="false" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+          <folding>
+            <marker date="1507985303376" expanded="true" signature="10577:10643" ph="..." />
+            <marker date="1507985303376" expanded="true" signature="10606:10643" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_sites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1507985046257" expanded="true" signature="253:272" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_questionaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <marker date="1507996228488" expanded="true" signature="263:307" ph="SELECT * FRO... question" />
+            <marker date="1507996228488" expanded="true" signature="456:501" ph="SELECT CURDA... " />
+            <marker date="1507996228488" expanded="true" signature="895:948" ph="SELECT * FRO... respondents" />
+            <marker date="1507996228488" expanded="true" signature="1099:1144" ph="SELECT * FRO... administrator" />
+            <marker date="1507996228488" expanded="true" signature="1201:1368" ph="SELECT * FRO... respondents" />
+            <marker date="1507996228488" expanded="true" signature="1201:1382" ph="SELECT * FRO... respondents" />
+            <marker date="1507996228488" expanded="true" signature="1201:1383" ph="SELECT * FRO... respondents" />
+            <marker date="1507996228488" expanded="true" signature="2244:2263" ph="SELECT * FRO... sites" />
+            <marker date="1507996228488" expanded="true" signature="2385:2420" ph="SELECT * FRO... sites" />
+            <marker date="1507996228488" expanded="true" signature="2385:2421" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/questionaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="181" column="122" lean-forward="false" selection-start-line="181" selection-start-column="122" selection-end-line="181" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/questionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="175" column="56" lean-forward="false" selection-start-line="175" selection-start-column="56" selection-end-line="175" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1418">
+          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <folding>
+            <marker date="1507684774553" expanded="true" signature="264:315" ph="SELECT * FRO... respondents" />
+            <marker date="1507684774553" expanded="true" signature="446:573" ph="SELECT * FRO... response" />
+            <marker date="1507684774553" expanded="true" signature="693:741" ph="SELECT * FRO... respondents" />
+            <marker date="1507684774553" expanded="true" signature="975:1016" ph="SELECT * FRO... periode" />
+            <marker date="1507684774553" expanded="true" signature="1401:1543" ph="SELECT * FRO... respondents" />
+            <marker date="1507684774553" expanded="true" signature="1592:1734" ph="SELECT * FRO... respondents" />
+            <marker date="1507684774553" expanded="true" signature="1986:2030" ph="SELECT * FRO... question" />
+            <marker date="1507684774553" expanded="true" signature="2186:2281" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507684774553" expanded="true" signature="3240:3291" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507684774553" expanded="true" signature="3793:3837" ph="SELECT * FRO... question" />
+            <marker date="1507684774553" expanded="true" signature="3934:4156" ph="SELECT SUM(r... response" />
+            <marker date="1507684774553" expanded="true" signature="4214:4436" ph="SELECT SUM(r... response" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="200" column="44" lean-forward="true" selection-start-line="200" selection-start-column="44" selection-end-line="205" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
           <folding />
         </state>
       </provider>
