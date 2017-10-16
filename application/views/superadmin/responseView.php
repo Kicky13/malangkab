@@ -15,42 +15,12 @@
         <!-- Canonical SEO -->
         <link rel="canonical" href="https://www.creative-tim.com/product/material-dashboard-pro"/>
         <!--  Social tags      -->
-        <meta name="keywords"
-              content="material dashboard, bootstrap material admin, bootstrap material dashboard, material design admin, material design, creative tim, html dashboard, html css dashboard, web dashboard, freebie, free bootstrap dashboard, css3 dashboard, bootstrap admin, bootstrap dashboard, frontend, responsive bootstrap dashboard, premiu material design admin">
-        <meta name="description"
-              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
-        <!-- Schema.org markup for Google+ -->
-        <meta itemprop="name" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template">
-        <meta itemprop="description"
-              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
-        <meta itemprop="image" content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg">
-        <!-- Twitter Card data -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@creativetim">
-        <meta name="twitter:title" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template">
-        <meta name="twitter:description"
-              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
-        <meta name="twitter:creator" content="@creativetim">
-        <meta name="twitter:image"
-              content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg">
-        <!-- Open Graph data -->
-        <meta property="fb:app_id" content="655968634437471">
-        <meta property="og:title" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template"/>
-        <meta property="og:type" content="article"/>
-        <meta property="og:url" content="http://www.creative-tim.com/product/material-dashboard-pro"/>
-        <meta property="og:image"
-              content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg"/>
-        <meta property="og:description"
-              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design."/>
-        <meta property="og:site_name" content="Creative Tim"/>
         <!-- Bootstrap core CSS     -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/bootstrap.min.css" rel="stylesheet"/>
         <!--  Material Dashboard CSS    -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/material-dashboard.css" rel="stylesheet"/>
         <!--  CSS for Demo Purpose, don't include it in your project     -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/demo.css" rel="stylesheet"/>
-        <!--     Fonts and icons     -->
-        <link href="../../../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css"
               href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"/>
     </head>
@@ -204,10 +174,13 @@
                                 <i class="material-icons">assignment</i>
                             </div>
                             <h4 class="card-title"> View Respondents
-                                <select name="dimension" class="selectpicker"
+                                <select name="web" id="web"
                                         data-style="btn btn-primary btn-round" title="Single Select"
                                         data-size="7" required>
                                     <option disabled selected>Choose a City</option>
+                                    <?php foreach ($web as $value) { ?>
+                                        <option value="<?php echo $value['site_id']; ?>"><?php echo $value['site_city']; ?></option>
+                                    <?php } ?>
                                 </select>
                             </h4>
                             <div class="card-content">
@@ -222,22 +195,7 @@
                                             <th class="text-center">Actions</th>
                                         </tr>
                                         </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($data as $row) { ?>
-                                            <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['respondent_name']; ?></td>
-                                                <td><?php echo $row['respondent_age']; ?></td>
-                                                <td><?php echo $row['respondent_datecreated']; ?></td>
-                                                <td class="td-actions text-center">
-                                                    <a href="<?php echo base_url('index.php/report/responseDetail/' . $row['respondent_id']) ?>"
-                                                       type="button" rel="tooltip" class="btn btn-success btn-simple">
-                                                        <i class="material-icons">remove_red_eye</i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        <?php } ?>
+                                        <tbody id="respondent">
                                         </tbody>
                                     </table>
                                 </div>
@@ -310,8 +268,7 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery-jvectormap.js"></script>
 <!-- Sliders Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/nouislider.min.js"></script>
-<!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+
 <!-- Select Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery.select-bootstrap.js"></script>
 <!--  DataTables.net Plugin    -->
@@ -328,19 +285,22 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/material-dashboard.js"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
-<script type="text/javascript">
+<script>
+
     $(document).ready(function () {
-
-        // Javascript method's body can be found in <?php echo base_url() . 'assets/'; ?>js/demos.js
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
+        console.log("window");
+        $("#web").change(function(){
+            console.log("as");
+            $.get("<?php echo base_url('index.php/report/getDataRespondents/'); ?>"+$("#web").val(),function (msg) {
+                    $('#respondent').html(msg)
+                });
+        });
     });
 </script>
 
 
 <!-- Mirrored from demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 15:38:09 GMT -->
-</html></title>
+</html>
 </head>
 <body>
 

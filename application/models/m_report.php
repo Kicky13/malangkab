@@ -7,9 +7,9 @@ class M_report extends CI_Model {
     {
         parent::__construct();
     }
-    public function getDataRespondents()
+    public function getDataRespondents($id)
     {
-        $data = $this->db->query('SELECT * FROM respondents ORDER BY respondent_label')->result_array();
+        $data = $this->db->query('SELECT * FROM respondents rp JOIN response r ON rp.respondent_id = r.respondent_id WHERE r.site_id = '.$id.' GROUP BY rp.respondent_id ORDER BY respondent_label')->result_array();
         return $data;
     }
     public function getDetailresponse($id)
@@ -103,5 +103,10 @@ class M_report extends CI_Model {
             );
             $this->db->insert('question_analysis', $data);
         }
+    }
+    public function getWeb()
+    {
+        $data = $this->db->query('SELECT * FROM sites')->result_array();
+        return $data;
     }
 }
