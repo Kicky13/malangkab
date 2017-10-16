@@ -143,7 +143,7 @@
                                 <a href="<?php echo base_url('index.php/report/response'); ?>">Response Result</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/report/resultAnalysis'); ?>">Analysis</a>
+                                <a href="<?php echo base_url('index.php/report/resultAnalysis/0'); ?>">Analysis</a>
                             </li>
                             <li class="active">
                                 <a href="#">Suggestion</a>

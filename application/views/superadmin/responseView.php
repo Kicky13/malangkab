@@ -113,7 +113,7 @@
                                 <a href="#">Response Result</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/report/resultAnalysis'); ?>">Analysis</a>
+                                <a href="<?php echo base_url('index.php/report/resultAnalysis/0'); ?>">Analysis</a>
                             </li>
                             <li>
                                 <a href="<?php echo base_url('index.php/suggestion'); ?>">Suggestion</a>
@@ -174,7 +174,7 @@
                                 <i class="material-icons">assignment</i>
                             </div>
                             <h4 class="card-title"> View Respondents
-                                <select name="web" id="web"
+                                <select name="web" id="web" class="selectpicker"
                                         data-style="btn btn-primary btn-round" title="Single Select"
                                         data-size="7" required>
                                     <option disabled selected>Choose a City</option>

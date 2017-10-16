@@ -49,8 +49,6 @@
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/material-dashboard.css" rel="stylesheet"/>
         <!--  CSS for Demo Purpose, don't include it in your project     -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/demo.css" rel="stylesheet"/>
-        <!--     Fonts and icons     -->
-        <link href="../../../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css"
               href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"/>
     </head>
@@ -107,7 +105,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>
                     </a>
@@ -198,80 +196,93 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="card card-stats">
-                            <div class="card-header"
-                                 data-background-color="<?php echo ($total['fact'] >= 10) ? "green" : "red"; ?>">
-                                <i class="material-icons">assignment_late</i>
-                            </div>
-                            <div class="card-content">
-                                <p class="category">Fact Result</p>
-                                <h3 class="card-title"><?php echo $total['fact']; ?></h3>
-                            </div>
-                            <div class="card-footer">
-                                <div class="stats">
-                                    <i class="material-icons">local_offer</i> Tracked from Questionaire
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="card card-stats">
-                            <div class="card-header"
-                                 data-background-color="<?php echo ($total['goal'] >= 5) ? "green" : "red"; ?>">
-                                <i class="material-icons">assignment_ind</i>
-                            </div>
-                            <div class="card-content">
-                                <p class="category">Goal Result</p>
-                                <h3 class="card-title"><?php echo $total['goal']; ?></h3>
-                            </div>
-                            <div class="card-footer">
-                                <div class="stats">
-                                    <i class="material-icons">date_range</i> For This Periode
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <select id="web" class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select"
+                                data-size="7">
+                            <option selected disabled>Choose a City</option>
+                            <?php foreach ($web as $value) { ?>
+                                <option <?php echo ($value['site_id'] == $id) ? "selected" : ""; ?> value="<?php echo $value['site_id']; ?>"><?php echo $value['site_city']; ?></option>
+                            <?php } ?>
+                        </select>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="rose">
-                                <i class="material-icons">assignment</i>
+                <section id="data" <?php echo ($id == 0) ? "hidden" : ""; ?>>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header"
+                                     data-background-color="<?php echo ($total['fact'] >= 10) ? "green" : "red"; ?>">
+                                    <i class="material-icons">assignment_late</i>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category">Fact Result</p>
+                                    <h3 class="card-title"><?php echo $total['fact']; ?></h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <i class="material-icons">local_offer</i> Tracked from Questionaire
+                                    </div>
+                                </div>
                             </div>
-                            <h4 class="card-title">Question Anaylisis</h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Question ID</th>
-                                            <th>Fact Result</th>
-                                            <th>Goal Result</th>
-                                            <th class="text-center">GAP</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($data as $row) { ?>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header"
+                                     data-background-color="<?php echo ($total['goal'] >= 5) ? "green" : "red"; ?>">
+                                    <i class="material-icons">assignment_ind</i>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category">Goal Result</p>
+                                    <h3 class="card-title"><?php echo $total['goal']; ?></h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <i class="material-icons">date_range</i> For This Periode
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header card-header-icon" data-background-color="rose">
+                                    <i class="material-icons">assignment</i>
+                                </div>
+                                <h4 class="card-title">Question Anaylisis</h4>
+                                <div class="card-content">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
                                             <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['label']; ?></td>
-                                                <td><?php echo $row['fact']; ?></td>
-                                                <td><?php echo $row['goal']; ?></td>
-                                                <td class="td-actions text-center"><?php echo $row['gap']; ?></td>
+                                                <th class="text-center">#</th>
+                                                <th>Question ID</th>
+                                                <th>Fact Result</th>
+                                                <th>Goal Result</th>
+                                                <th class="text-center">GAP</th>
                                             </tr>
-                                        <?php } ?>
-                                        </tbody>
-                                    </table>
+                                            </thead>
+                                            <tbody>
+                                            <?php $no = 1;
+                                            foreach ($data as $row) { ?>
+                                                <tr>
+                                                    <td class="text-center"><?php echo $no++; ?></td>
+                                                    <td><?php echo $row['label']; ?></td>
+                                                    <td><?php echo $row['fact']; ?></td>
+                                                    <td><?php echo $row['goal']; ?></td>
+                                                    <td class="td-actions text-center"><?php echo $row['gap']; ?></td>
+                                                </tr>
+                                            <?php } ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <a href="<?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? base_url('index.php/report/analyzeQuestion') : "#"; ?>" <?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? "" : ""; ?>
+                                       class="btn btn-info btn-round">Calculate</a>
                                 </div>
-                                <a href="<?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? base_url('index.php/report/analyzeQuestion') : "#"; ?>" <?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? "" : ""; ?>
-                                   class="btn btn-info btn-round">Calculate</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
         <footer class="footer">
@@ -337,8 +348,6 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery-jvectormap.js"></script>
 <!-- Sliders Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/nouislider.min.js"></script>
-<!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
 <!-- Select Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery.select-bootstrap.js"></script>
 <!--  DataTables.net Plugin    -->
@@ -355,13 +364,12 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/material-dashboard.js"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
-<script type="text/javascript">
+<script>
     $(document).ready(function () {
-
-        // Javascript method's body can be found in <?php echo base_url() . 'assets/'; ?>js/demos.js
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
+        console.log("Coba");
+        $('#web').change(function () {
+            window.location.replace('<?php echo base_url('index.php/report/resultAnalysis/'); ?>' + $('#web').val())
+        })
     });
 </script>
 

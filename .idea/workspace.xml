@@ -14,9 +14,60 @@
       <file leaf-file-name="responseView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="295" column="17" lean-forward="true" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
+            <state relative-caret-position="371">
+              <caret line="293" column="85" lean-forward="true" selection-start-line="293" selection-start-column="85" selection-end-line="293" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analysis.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/analysis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+              <folding>
+                <marker date="1508133860879" expanded="true" signature="6472:6508" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="11434:11694" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="11499:11694" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="11557:11694" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="11615:11694" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="11912:12062" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12175:12421" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12231:12382" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12552:12747" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12610:12747" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12668:12747" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="12963:13113" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13226:13462" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13282:13423" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13593:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13641:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13688:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="13792:13908" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14046:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14113:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14175:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14227:14746" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14276:14693" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14798:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="14983:15158" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16266:17477" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16308:17459" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16348:17110" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16373:17087" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16402:16543" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16443:16513" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16572:16716" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16613:16686" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16745:16891" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16786:16861" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16920:17061" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="16961:17031" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="17159:17440" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="17215:17310" ph="..." />
+                <marker date="1508133860879" expanded="true" signature="20774:20783" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,43 +75,17 @@
       <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="319">
+              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
               <folding>
-                <marker date="1508074571127" expanded="true" signature="850:895" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="850:896" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="850:934" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="850:935" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="850:1499" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="1148:1183" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="1148:1475" ph="..." />
-                <marker date="1508074571127" expanded="true" signature="1256:1449" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m_report.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="168" lean-forward="false" selection-start-line="11" selection-start-column="168" selection-end-line="11" selection-end-column="168" />
-              <folding>
-                <marker date="1508125980441" expanded="true" signature="267:367" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="267:368" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="267:427" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="558:685" ph="SELECT * FRO... response" />
-                <marker date="1508125980441" expanded="true" signature="805:853" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="1087:1128" ph="SELECT * FRO... periode" />
-                <marker date="1508125980441" expanded="true" signature="1513:1655" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="1704:1846" ph="SELECT * FRO... respondents" />
-                <marker date="1508125980441" expanded="true" signature="2098:2142" ph="SELECT * FRO... question" />
-                <marker date="1508125980441" expanded="true" signature="2298:2393" ph="SELECT * FRO... question_analysis" />
-                <marker date="1508125980441" expanded="true" signature="3352:3403" ph="SELECT * FRO... question_analysis" />
-                <marker date="1508125980441" expanded="true" signature="3905:3949" ph="SELECT * FRO... question" />
-                <marker date="1508125980441" expanded="true" signature="4046:4268" ph="SELECT SUM(r... response" />
-                <marker date="1508125980441" expanded="true" signature="4326:4548" ph="SELECT SUM(r... response" />
-                <marker date="1508125980441" expanded="true" signature="5051:5070" ph="SELECT * FRO... sites" />
+                <marker date="1508132158245" expanded="true" signature="850:895" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="850:896" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="850:934" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="850:935" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="850:1499" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="1148:1183" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="1148:1475" ph="..." />
+                <marker date="1508132158245" expanded="true" signature="1256:1449" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,25 +124,11 @@
         <option value="$PROJECT_DIR$/application/controllers/periode.php" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/application/models/m_periode.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/adminEdit.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/adminAdd.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionEdit.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionView.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/periodeView.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/questionAdd.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/questionView.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/adminView.php" />
         <option value="$PROJECT_DIR$/application/controllers/response.php" />
         <option value="$PROJECT_DIR$/application/models/m_response.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/responseDetail.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/analysis.php" />
         <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
         <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
         <option value="$PROJECT_DIR$/application/views/public/web.php" />
         <option value="$PROJECT_DIR$/application/views/public/bio.php" />
         <option value="$PROJECT_DIR$/application/views/public/questionaire.php" />
@@ -128,9 +139,23 @@
         <option value="$PROJECT_DIR$/application/views/admin/web.php" />
         <option value="$PROJECT_DIR$/application/models/m_questionaire.php" />
         <option value="$PROJECT_DIR$/application/views/admin/questionnaire.php" />
-        <option value="$PROJECT_DIR$/application/controllers/report.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
         <option value="$PROJECT_DIR$/application/models/m_report.php" />
+        <option value="$PROJECT_DIR$/application/controllers/report.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/adminAdd.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/adminEdit.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/adminView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionEdit.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/dimensionView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/periodeView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/questionAdd.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/questionView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/responseDetail.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/analysis.php" />
       </list>
     </option>
   </component>
@@ -260,12 +285,12 @@
       <workItem from="1508026811299" duration="1880000" />
       <workItem from="1508063482993" duration="595000" />
       <workItem from="1508068543963" duration="6210000" />
-      <workItem from="1508123631291" duration="2108000" />
+      <workItem from="1508123631291" duration="9953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130402000" />
+    <option name="totallyTimeSpent" value="138247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -414,73 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="132" column="87" lean-forward="false" selection-start-line="132" selection-start-column="87" selection-end-line="132" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="132" column="93" lean-forward="true" selection-start-line="132" selection-start-column="93" selection-end-line="132" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="132" column="103" lean-forward="false" selection-start-line="132" selection-start-column="103" selection-end-line="132" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="217" column="31" lean-forward="false" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="175" column="60" lean-forward="false" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/periode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/periodeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="229" column="14" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="229" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -491,20 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/analysis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4267">
-          <caret line="251" column="76" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="374" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="133" column="33" lean-forward="true" selection-start-line="133" selection-start-column="33" selection-end-line="133" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_periode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -512,31 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestEx.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="264" column="30" lean-forward="true" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="232" column="42" lean-forward="true" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -633,58 +560,223 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <marker date="1508129604458" expanded="true" signature="268:368" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="268:369" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="268:432" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="564:695" ph="SELECT * FRO... response" />
+            <marker date="1508129604458" expanded="true" signature="816:864" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1104:1145" ph="SELECT * FRO... periode" />
+            <marker date="1508129604458" expanded="true" signature="1541:1757" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1541:1771" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1541:1773" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1541:1774" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1541:1811" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1541:1812" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1860:2076" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1860:2080" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1860:2130" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="1860:2144" ph="SELECT * FRO... respondents" />
+            <marker date="1508129604458" expanded="true" signature="2386:2430" ph="SELECT * FRO... question" />
+            <marker date="1508129604458" expanded="true" signature="2586:2685" ph="SELECT * FRO... question_analysis" />
+            <marker date="1508129604458" expanded="true" signature="2586:2715" ph="SELECT * FRO... question_analysis" />
+            <marker date="1508129604458" expanded="true" signature="2586:2716" ph="SELECT * FRO... question_analysis" />
+            <marker date="1508129604458" expanded="true" signature="2586:2717" ph="SELECT * FRO... question_analysis" />
+            <marker date="1508129604458" expanded="true" signature="3675:3726" ph="SELECT * FRO... question_analysis" />
+            <marker date="1508129604458" expanded="true" signature="4232:4276" ph="SELECT * FRO... question" />
+            <marker date="1508129604458" expanded="true" signature="4374:4604" ph="SELECT SUM(r... response" />
+            <marker date="1508129604458" expanded="true" signature="4662:4892" ph="SELECT SUM(r... response" />
+            <marker date="1508129604458" expanded="true" signature="5396:5415" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestEx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="264" column="30" lean-forward="true" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="141" column="32" lean-forward="true" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="145" column="95" lean-forward="false" selection-start-line="145" selection-start-column="95" selection-end-line="145" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="145" column="95" lean-forward="false" selection-start-line="145" selection-start-column="95" selection-end-line="145" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/questionAdd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="200" column="44" lean-forward="false" selection-start-line="200" selection-start-column="44" selection-end-line="205" selection-end-column="53" />
+        <state relative-caret-position="303">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/periodeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="135" column="95" lean-forward="false" selection-start-line="135" selection-start-column="95" selection-end-line="135" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="295" column="17" lean-forward="true" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
+        <state relative-caret-position="371">
+          <caret line="293" column="85" lean-forward="true" selection-start-line="293" selection-start-column="85" selection-end-line="293" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="319">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding>
-            <marker date="1508074571127" expanded="true" signature="850:895" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="850:896" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="850:934" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="850:935" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="850:1499" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="1148:1183" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="1148:1475" ph="..." />
-            <marker date="1508074571127" expanded="true" signature="1256:1449" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:895" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:896" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:934" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:935" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:1499" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1148:1183" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1148:1475" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1256:1449" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_report.php">
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/analysis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="168" lean-forward="false" selection-start-line="11" selection-start-column="168" selection-end-line="11" selection-end-column="168" />
+        <state relative-caret-position="39">
+          <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
           <folding>
-            <marker date="1508125980441" expanded="true" signature="267:367" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="267:368" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="267:427" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="558:685" ph="SELECT * FRO... response" />
-            <marker date="1508125980441" expanded="true" signature="805:853" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="1087:1128" ph="SELECT * FRO... periode" />
-            <marker date="1508125980441" expanded="true" signature="1513:1655" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="1704:1846" ph="SELECT * FRO... respondents" />
-            <marker date="1508125980441" expanded="true" signature="2098:2142" ph="SELECT * FRO... question" />
-            <marker date="1508125980441" expanded="true" signature="2298:2393" ph="SELECT * FRO... question_analysis" />
-            <marker date="1508125980441" expanded="true" signature="3352:3403" ph="SELECT * FRO... question_analysis" />
-            <marker date="1508125980441" expanded="true" signature="3905:3949" ph="SELECT * FRO... question" />
-            <marker date="1508125980441" expanded="true" signature="4046:4268" ph="SELECT SUM(r... response" />
-            <marker date="1508125980441" expanded="true" signature="4326:4548" ph="SELECT SUM(r... response" />
-            <marker date="1508125980441" expanded="true" signature="5051:5070" ph="SELECT * FRO... sites" />
+            <marker date="1508133860879" expanded="true" signature="6472:6508" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="11434:11694" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="11499:11694" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="11557:11694" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="11615:11694" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="11912:12062" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12175:12421" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12231:12382" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12552:12747" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12610:12747" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12668:12747" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="12963:13113" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13226:13462" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13282:13423" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13593:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13641:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13688:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="13792:13908" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14046:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14113:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14175:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14227:14746" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14276:14693" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14798:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="14983:15158" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16266:17477" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16308:17459" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16348:17110" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16373:17087" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16402:16543" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16443:16513" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16572:16716" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16613:16686" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16745:16891" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16786:16861" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16920:17061" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="16961:17031" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="17159:17440" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="17215:17310" ph="..." />
+            <marker date="1508133860879" expanded="true" signature="20774:20783" ph="..." />
           </folding>
         </state>
       </provider>

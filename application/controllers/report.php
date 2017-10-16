@@ -45,13 +45,14 @@ class Report extends CI_Controller
         }
     }
 
-    public function resultAnalysis()
+    public function resultAnalysis($id)
     {
         if (isset($_SESSION['loggedIn'])) {
             if ($_SESSION['level'] == 1) {
-                $count = $this->m_report->getCountresponse();
-                $data = $this->m_report->getQualdata();
-                $this->load->view('superadmin/analysis', array('data' => $data, 'total' => $count));
+                $count = $this->m_report->getCountresponse($id);
+                $data = $this->m_report->getQualdata($id);
+                $web = $this->m_report->getWeb();
+                $this->load->view('superadmin/analysis', array('data' => $data, 'total' => $count, 'web' => $web, 'id' => $id));
             } else {
                 echo 'Forbidden Access';
             }
