@@ -11,81 +11,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="responseView.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
+      <file leaf-file-name="m_suggest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="293" column="85" lean-forward="true" selection-start-line="293" selection-start-column="85" selection-end-line="293" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analysis.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/analysis.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+            <state relative-caret-position="434">
+              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
-                <marker date="1508133860879" expanded="true" signature="6472:6508" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="11434:11694" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="11499:11694" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="11557:11694" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="11615:11694" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="11912:12062" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12175:12421" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12231:12382" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12552:12747" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12610:12747" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12668:12747" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="12963:13113" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13226:13462" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13282:13423" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13593:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13641:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13688:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="13792:13908" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14046:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14113:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14175:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14227:14746" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14276:14693" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14798:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="14983:15158" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16266:17477" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16308:17459" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16348:17110" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16373:17087" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16402:16543" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16443:16513" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16572:16716" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16613:16686" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16745:16891" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16786:16861" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16920:17061" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="16961:17031" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="17159:17440" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="17215:17310" ph="..." />
-                <marker date="1508133860879" expanded="true" signature="20774:20783" ph="..." />
+                <marker date="1507953287603" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
+                <marker date="1507953287603" expanded="true" signature="510:668" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507953287603" expanded="true" signature="897:1057" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507953287603" expanded="true" signature="1288:1474" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507953287603" expanded="true" signature="1705:1866" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507953287603" expanded="true" signature="2200:2362" ph="SELECT * FRO... question_analysis" />
+                <marker date="1507953287603" expanded="true" signature="2426:2471" ph="SELECT * FRO... dimension" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
+      <file leaf-file-name="suggestion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2023">
+              <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
               <folding>
-                <marker date="1508132158245" expanded="true" signature="850:895" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="850:896" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="850:934" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="850:935" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="850:1499" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="1148:1183" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="1148:1475" ph="..." />
-                <marker date="1508132158245" expanded="true" signature="1256:1449" ph="..." />
+                <marker date="1508134650582" expanded="true" signature="6630:6666" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4726">
+              <caret line="278" column="53" lean-forward="false" selection-start-line="278" selection-start-column="53" selection-end-line="278" selection-end-column="53" />
+              <folding>
+                <marker date="1508134436817" expanded="true" signature="6630:6666" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,7 +99,6 @@
         <option value="$PROJECT_DIR$/application/controllers/response.php" />
         <option value="$PROJECT_DIR$/application/models/m_response.php" />
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
-        <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
         <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
         <option value="$PROJECT_DIR$/application/views/public/web.php" />
         <option value="$PROJECT_DIR$/application/views/public/bio.php" />
@@ -152,10 +123,12 @@
         <option value="$PROJECT_DIR$/application/views/superadmin/questionAdd.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/questionView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/responseDetail.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/analysis.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
+        <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
       </list>
     </option>
   </component>
@@ -186,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,19 +191,10 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="superadmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,18 +251,18 @@
       <workItem from="1508026811299" duration="1880000" />
       <workItem from="1508063482993" duration="595000" />
       <workItem from="1508068543963" duration="6210000" />
-      <workItem from="1508123631291" duration="9953000" />
+      <workItem from="1508123631291" duration="11346000" />
+      <workItem from="1508189166373" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138247000" />
+    <option name="totallyTimeSpent" value="140248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -326,13 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/dimension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -457,20 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -627,22 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="141" column="32" lean-forward="true" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="145" column="95" lean-forward="false" selection-start-line="145" selection-start-column="95" selection-end-line="145" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseDetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -707,35 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="293" column="85" lean-forward="true" selection-start-line="293" selection-start-column="85" selection-end-line="293" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <marker date="1508132158245" expanded="true" signature="850:895" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="850:896" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="850:934" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="850:935" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="850:1499" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="1148:1183" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="1148:1475" ph="..." />
-            <marker date="1508132158245" expanded="true" signature="1256:1449" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/analysis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+        <state relative-caret-position="-772">
+          <caret line="229" column="38" lean-forward="true" selection-start-line="229" selection-start-column="38" selection-end-line="229" selection-end-column="38" />
           <folding>
             <marker date="1508133860879" expanded="true" signature="6472:6508" ph="..." />
             <marker date="1508133860879" expanded="true" signature="11434:11694" ph="..." />
@@ -777,6 +681,76 @@
             <marker date="1508133860879" expanded="true" signature="17159:17440" ph="..." />
             <marker date="1508133860879" expanded="true" signature="17215:17310" ph="..." />
             <marker date="1508133860879" expanded="true" signature="20774:20783" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="293" column="85" lean-forward="true" selection-start-line="293" selection-start-column="85" selection-end-line="293" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <marker date="1508132158245" expanded="true" signature="850:895" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:896" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:934" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:935" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="850:1499" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1148:1183" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1148:1475" ph="..." />
+            <marker date="1508132158245" expanded="true" signature="1256:1449" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggest.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="278" column="53" lean-forward="false" selection-start-line="278" selection-start-column="53" selection-end-line="278" selection-end-column="53" />
+          <folding>
+            <marker date="1508134436817" expanded="true" signature="6630:6666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+          <folding>
+            <marker date="1508134650582" expanded="true" signature="6630:6666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <marker date="1507953287603" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
+            <marker date="1507953287603" expanded="true" signature="510:668" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="897:1057" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="1288:1474" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="1705:1866" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="2200:2362" ph="SELECT * FRO... question_analysis" />
+            <marker date="1507953287603" expanded="true" signature="2426:2471" ph="SELECT * FRO... dimension" />
           </folding>
         </state>
       </provider>

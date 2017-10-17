@@ -107,7 +107,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>
                     </a>
@@ -268,7 +268,7 @@
                                         <tbody>
                                         <?php $no = 1;
                                         foreach ($data as $row) { ?>
-                                            <tr>aaa
+                                            <tr>
                                                 <td class="text-center"><?php echo $no++; ?></td>
                                                 <td><?php echo $row['dimension_name']; ?></td>
                                                 <td class="td-actions text-center">
@@ -372,10 +372,6 @@
 <script type="text/javascript">
     $(document).ready(function () {
 
-        // Javascript method's body can be found in <?php echo base_url() . 'assets/'; ?>js/demos.js
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
     });
 </script>
 
