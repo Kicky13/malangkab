@@ -199,7 +199,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orong" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -252,12 +252,12 @@
       <workItem from="1508063482993" duration="595000" />
       <workItem from="1508068543963" duration="6210000" />
       <workItem from="1508123631291" duration="11346000" />
-      <workItem from="1508189166373" duration="608000" />
+      <workItem from="1508189166373" duration="1102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140248000" />
+    <option name="totallyTimeSpent" value="140742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
