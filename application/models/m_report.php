@@ -77,33 +77,35 @@ class M_report extends CI_Model
         return $data;
     }
 
-    public function countQual()
+    public function countQual($id)
     {
         $this->load->model('m_periode');
         $periode = $this->m_periode->getNowperiode();
-        $data = $this->db->query('SELECT * FROM question_analysis WHERE periode_id = ' . $periode)->num_rows();
+        $data = $this->db->query('SELECT * FROM question_analysis WHERE periode_id = ' . $periode . ' AND site_id = ' . $id)->num_rows();
         return $data;
     }
 
-    public function updateQual()
+    public function updateQual($id)
     {
         $this->load->model('m_periode');
         $periode = $this->m_periode->getNowperiode();
         $this->db->where('periode_id', $periode);
+        $this->db->where('site_id', $id);
         $this->db->delete('question_analysis');
-        $this->analyzeQuestion();
+        $this->analyzeQuestion($id);
     }
 
-    public function analyzeQuestion()
+    public function analyzeQuestion($id)
     {
         $this->load->model('m_periode');
         $periode = $this->m_periode->getNowperiode();
         $question = $this->db->query('SELECT * FROM question ORDER BY dimension_id')->result_array();
         foreach ($question as $value) {
-            $fact = $this->db->query('SELECT SUM(response_value)/COUNT(*) AS fact FROM response r JOIN respondents rt ON r.respondent_id = rt.respondent_id WHERE question_id = ' . $value['question_id'] . ' AND periode_id = ' . $periode . ' AND respondent_label = "PUB"')->result_array();
-            $goal = $this->db->query('SELECT SUM(response_value)/COUNT(*) AS goal FROM response r JOIN respondents rt ON r.respondent_id = rt.respondent_id WHERE question_id = ' . $value['question_id'] . ' AND periode_id = ' . $periode . ' AND respondent_label = "ADM"')->result_array();
+            $fact = $this->db->query('SELECT SUM(response_value)/COUNT(*) AS fact FROM response r JOIN respondents rt ON r.respondent_id = rt.respondent_id WHERE r.site_id = ' . $id . ' AND question_id = ' . $value['question_id'] . ' AND periode_id = ' . $periode . ' AND respondent_label = "PUB"')->result_array();
+            $goal = $this->db->query('SELECT SUM(response_value)/COUNT(*) AS goal FROM response r JOIN respondents rt ON r.respondent_id = rt.respondent_id WHERE r.site_id = ' . $id . ' AND question_id = ' . $value['question_id'] . ' AND periode_id = ' . $periode . ' AND respondent_label = "ADM"')->result_array();
             $data = array(
                 'qual_id' => null,
+                'site_id' => $id,
                 'question_id' => $value['question_id'],
                 'periode_id' => $periode,
                 'qual_fact' => $fact[0]['fact'],

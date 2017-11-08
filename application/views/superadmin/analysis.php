@@ -276,7 +276,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <a href="<?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? base_url('index.php/report/analyzeQuestion') : "#"; ?>" <?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? "" : ""; ?>
+                                    <a href="<?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? base_url('index.php/report/analyzeQuestion/'.$id) : "#"; ?>" <?php echo ($total['fact'] >= 10 && $total['goal'] >= 5) ? "" : ""; ?>
                                        class="btn btn-info btn-round">Calculate</a>
                                 </div>
                             </div>

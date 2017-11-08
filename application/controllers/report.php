@@ -76,17 +76,17 @@ class Report extends CI_Controller
         }
     }
 
-    public function analyzeQuestion()
+    public function analyzeQuestion($id)
     {
         if (isset($_SESSION['loggedIn'])) {
             if ($_SESSION['level'] == 1) {
-                $count = $this->m_report->countQual();
+                $count = $this->m_report->countQual($id);
                 if ($count == 0) {
-                    $this->m_report->analyzeQuestion();
+                    $this->m_report->analyzeQuestion($id);
                 } else {
-                    $this->m_report->updateQual();
+                    $this->m_report->updateQual($id);
                 }
-                redirect('/report/resultAnalysis');
+                redirect('/report/resultAnalysis/'.$id);
             } else {
                 echo 'Forbidden Access';
             }
