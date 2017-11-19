@@ -93,7 +93,7 @@
                 <li class="active">
                     <a href="<?php echo base_url('index.php/admin'); ?>">
                         <i class="material-icons">wc</i>
-                        <p>Admin</p>
+                        <p>Personnel</p>
                     </a>
                 </li>
                 <li>
@@ -160,7 +160,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> Update Administrator </a>
+                    <a class="navbar-brand" href="#"> Update Personnel </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">

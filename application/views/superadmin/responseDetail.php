@@ -103,7 +103,7 @@
                 <li>
                     <a href="<?php echo base_url('index.php/admin'); ?>">
                         <i class="material-icons">wc</i>
-                        <p>Administrator</p>
+                        <p>Personnel</p>
                     </a>
                 </li>
                 <li>
