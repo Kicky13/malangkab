@@ -272,7 +272,7 @@
                                                 <td class="text-center"><?php echo $no++; ?></td>
                                                 <td><?php echo $row['dimension_name']; ?></td>
                                                 <td class="td-actions text-center">
-                                                    <a href="<?php echo base_url('index.php/suggestion/dimensionDetail/' . $row['dimension_id']) ?>"
+                                                    <a href="<?php echo base_url('index.php/suggestion/dimensionDetail/' . $row['dimension_id'] . '/' . $site) ?>"
                                                        type="button" rel="tooltip" class="btn btn-success btn-simple">
                                                         <i class="material-icons">remove_red_eye</i>
                                                     </a>
