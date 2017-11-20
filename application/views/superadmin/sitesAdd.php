@@ -15,12 +15,42 @@
         <!-- Canonical SEO -->
         <link rel="canonical" href="https://www.creative-tim.com/product/material-dashboard-pro"/>
         <!--  Social tags      -->
+        <meta name="keywords"
+              content="material dashboard, bootstrap material admin, bootstrap material dashboard, material design admin, material design, creative tim, html dashboard, html css dashboard, web dashboard, freebie, free bootstrap dashboard, css3 dashboard, bootstrap admin, bootstrap dashboard, frontend, responsive bootstrap dashboard, premiu material design admin">
+        <meta name="description"
+              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template">
+        <meta itemprop="description"
+              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
+        <meta itemprop="image" content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg">
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@creativetim">
+        <meta name="twitter:title" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template">
+        <meta name="twitter:description"
+              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design.">
+        <meta name="twitter:creator" content="@creativetim">
+        <meta name="twitter:image"
+              content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg">
+        <!-- Open Graph data -->
+        <meta property="fb:app_id" content="655968634437471">
+        <meta property="og:title" content="Material Dashboard PRO by Creative Tim | Premium Bootstrap Admin Template"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="http://www.creative-tim.com/product/material-dashboard-pro"/>
+        <meta property="og:image"
+              content="../../../s3.amazonaws.com/creativetim_bucket/products/51/opt_mdp_thumbnail.jpg"/>
+        <meta property="og:description"
+              content="Material Dashboard PRO is a Premium Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design."/>
+        <meta property="og:site_name" content="Creative Tim"/>
         <!-- Bootstrap core CSS     -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/bootstrap.min.css" rel="stylesheet"/>
         <!--  Material Dashboard CSS    -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/material-dashboard.css" rel="stylesheet"/>
         <!--  CSS for Demo Purpose, don't include it in your project     -->
         <link href="<?php echo base_url() . 'assets/'; ?>admin/css/demo.css" rel="stylesheet"/>
+        <!--     Fonts and icons     -->
+        <link href="../../../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css"
               href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"/>
     </head>
@@ -76,14 +106,14 @@
                         <p>Personnel</p>
                     </a>
                 </li>
-                <li>
-                    <a href="<?php echo base_url('index.php/sites'); ?>">
+                <li class="active">
+                    <a href="#">
                         <i class="material-icons">web</i>
                         <p>Sites</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>
                     </a>
@@ -106,7 +136,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="active">
+                <li>
                     <a data-toggle="collapse" href="#laporan">
                         <i class="material-icons">assignment</i>
                         <p>Report
@@ -115,8 +145,8 @@
                     </a>
                     <div class="collapse" id="laporan">
                         <ul class="nav">
-                            <li class="active">
-                                <a href="#">Response Result</a>
+                            <li>
+                                <a href="<?php echo base_url('index.php/report/response'); ?>">Response Result</a>
                             </li>
                             <li>
                                 <a href="<?php echo base_url('index.php/report/resultAnalysis/0'); ?>">Analysis</a>
@@ -146,7 +176,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> View Response </a>
+                    <a class="navbar-brand" href="#"> Manage Sites </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -176,42 +206,67 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="rose">
-                                <i class="material-icons">assignment</i>
-                            </div>
-                            <h4 class="card-title"> View Respondents
-                                <select name="web" id="web" class="selectpicker"
-                                        data-style="btn btn-primary btn-round" title="Single Select"
-                                        data-size="7" required>
-                                    <option disabled selected>Choose a City</option>
-                                    <?php foreach ($web as $value) { ?>
-                                        <option value="<?php echo $value['site_id']; ?>"><?php echo $value['site_city']; ?></option>
-                                    <?php } ?>
-                                </select>
-                            </h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Name</th>
-                                            <th>Age</th>
-                                            <th>Submit Date</th>
-                                            <th class="text-center">Actions</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody id="respondent">
-                                        </tbody>
-                                    </table>
+                            <form method="post" action="<?php echo base_url('index.php/sites/add'); ?>"
+                                  class="form-horizontal">
+                                <div class="card-header card-header-text" data-background-color="rose">
+                                    <h4 class="card-title">Add Form</h4>
                                 </div>
-                            </div>
+                                <div class="card-content">
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Site Name</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" name="nama" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">City</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" name="city" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Province</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" name="province" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Description</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <textarea class="form-control" name="description" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">URL</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" id="url" name="url" required>
+                                                <iframe width="100%" height="500"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-fill btn-rose">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 </body>
 <!--   Core JS Files   -->
@@ -239,7 +294,8 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery-jvectormap.js"></script>
 <!-- Sliders Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/nouislider.min.js"></script>
-
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <!-- Select Plugin -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/jquery.select-bootstrap.js"></script>
 <!--  DataTables.net Plugin    -->
@@ -257,21 +313,12 @@
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
 <script>
-
     $(document).ready(function () {
-        console.log("window");
-        $("#web").change(function(){
-            console.log("as");
-            $.get("<?php echo base_url('index.php/report/getDataRespondents/'); ?>"+$("#web").val(),function (msg) {
-                    $('#respondent').html(msg)
-                });
-        });
-    });
+        console.log('window')
+    })
 </script>
-
-
 <!-- Mirrored from demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 15:38:09 GMT -->
-</html>
+</html></title>
 </head>
 <body>
 

@@ -96,8 +96,8 @@
                         <p>Personnel</p>
                     </a>
                 </li>
-                <li>
-                    <a href="<?php echo base_url('index.php/sites'); ?>">
+                <li class="active">
+                    <a href="#">
                         <i class="material-icons">web</i>
                         <p>Sites</p>
                     </a>
@@ -108,7 +108,7 @@
                         <p>Periode</p>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a data-toggle="collapse" href="#pertanyaan">
                         <i class="material-icons">help</i>
                         <p>Question
@@ -120,7 +120,7 @@
                             <li>
                                 <a href="<?php echo base_url('index.php/dimension/viewDimension'); ?>">Dimension</a>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="<?php echo base_url('index.php/question/viewQuestion'); ?>">Question</a>
                             </li>
                         </ul>
@@ -166,10 +166,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> Add Question </a>
+                    <a class="navbar-brand" href="#"> Manage Sites </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="<?php echo base_url('index.php/sites/formAdd'); ?>" class="dropdown-toggle">
+                                <i class="material-icons">add</i>
+                                <p class="hidden-lg hidden-md">Add_Data</p>
+                            </a>
+                        </li>
                         <li>
                             <a href="<?php echo base_url('index.php/login/logout'); ?>" class="dropdown-toggle">
                                 <i class="material-icons">keyboard_tab</i>
@@ -196,82 +202,51 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <form method="post" action="<?php echo base_url('index.php/question/add'); ?>" class="form-horizontal">
-                                <div class="card-header card-header-text" data-background-color="rose">
-                                    <h4 class="card-title">Add Form</h4>
+                            <div class="card-header card-header-icon" data-background-color="rose">
+                                <i class="material-icons">assignment</i>
+                            </div>
+                            <h4 class="card-title">Sites Data</h4>
+                            <div class="card-content">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th class="text-center">#</th>
+                                            <th>Site Name</th>
+                                            <th>City</th>
+                                            <th>Province</th>
+                                            <th>URL</th>
+                                            <th class="text-right">Action</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php $no = 1;
+                                        foreach ($data as $row){ ?>
+                                            <tr>
+                                                <td class="text-center"><?php echo $no++; ?></td>
+                                                <td><?php echo $row['site_name']; ?></td>
+                                                <td><?php echo $row['site_city']; ?></td>
+                                                <td><?php echo $row['site_province']; ?></td>
+                                                <td><?php echo $row['site_url']; ?></td>
+                                                <td class="td-actions text-right">
+                                                    <a href="<?php echo $row['site_url']; ?>" type="button" rel="tooltip" class="btn btn-success btn-simple" target="_blank">
+                                                        <i class="material-icons">remove_red_eye</i>
+                                                    </a>
+                                                    <a href="<?php echo base_url('index.php/sites/formEdit/'.$row['site_id']); ?>" type="button" rel="tooltip" class="btn btn-success btn-simple">
+                                                        <i class="material-icons">edit</i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php } ?>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="card-content">
-                                    <div class="row">
-                                        <label class="col-sm-2 label-on-left">Dimension</label>
-                                        <div class="col-lg-5 col-md-6 col-sm-3">
-                                            <select name="dimension" class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select" data-size="7" required>
-                                                <option disabled selected>Choose a Dimension</option>
-                                                <?php foreach ($dimension as $item){ ?>
-                                                    <option value="<?php echo $item['dimension_id']; ?>"><?php echo $item['dimension_name']; ?></option>
-                                                <?php } ?>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <label class="col-sm-2 label-on-left">Question Code</label>
-                                        <div class="col-sm-10">
-                                            <div class="form-group label-floating is-empty">
-                                                <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="code" readonly>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <label class="col-sm-2 label-on-left">Question</label>
-                                        <div class="col-sm-10">
-                                            <div class="form-group label-floating is-empty">
-                                                <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="question" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-fill btn-rose">Submit</button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.creative-tim.com/">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
     </div>
 </div>
 </body>

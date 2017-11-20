@@ -96,6 +96,12 @@
                         <p>Personnel</p>
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo base_url('index.php/sites'); ?>">
+                        <i class="material-icons">web</i>
+                        <p>Sites</p>
+                    </a>
+                </li>
                 <li class="active">
                     <a href="#">
                         <i class="material-icons">date_range</i>

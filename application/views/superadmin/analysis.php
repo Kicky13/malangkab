@@ -105,6 +105,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="<?php echo base_url('index.php/sites'); ?>">
+                        <i class="material-icons">web</i>
+                        <p>Sites</p>
+                    </a>
+                </li>
+                <li>
                     <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>

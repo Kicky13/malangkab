@@ -97,6 +97,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="<?php echo base_url('index.php/sites'); ?>">
+                        <i class="material-icons">web</i>
+                        <p>Sites</p>
+                    </a>
+                </li>
+                <li>
                     <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>
@@ -199,7 +205,7 @@
                             <div class="card-header card-header-icon" data-background-color="rose">
                                 <i class="material-icons">assignment</i>
                             </div>
-                            <h4 class="card-title">Administrator Data</h4>
+                            <h4 class="card-title">Personnel Data</h4>
                             <div class="card-content">
                                 <div class="table-responsive">
                                     <table class="table">

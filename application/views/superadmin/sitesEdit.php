@@ -103,11 +103,17 @@
                 <li>
                     <a href="<?php echo base_url('index.php/admin'); ?>">
                         <i class="material-icons">wc</i>
-                        <p>Administrator</p>
+                        <p>Personnel</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        <i class="material-icons">web</i>
+                        <p>Sites</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo base_url('index.php/periode'); ?>">
                         <i class="material-icons">date_range</i>
                         <p>Periode</p>
                     </a>
@@ -130,7 +136,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="active">
+                <li>
                     <a data-toggle="collapse" href="#laporan">
                         <i class="material-icons">assignment</i>
                         <p>Report
@@ -143,10 +149,10 @@
                                 <a href="<?php echo base_url('index.php/report/response'); ?>">Response Result</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/report/resultAnalysis'); ?>">Analysis</a>
+                                <a href="<?php echo base_url('index.php/report/resultAnalysis/0'); ?>">Analysis</a>
                             </li>
-                            <li class="active">
-                                <a href="#">Suggestion</a>
+                            <li>
+                                <a href="<?php echo base_url('index.php/suggestion'); ?>">Suggestion</a>
                             </li>
                         </ul>
                     </div>
@@ -170,7 +176,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> Suggestion </a>
+                    <a class="navbar-brand" href="#"> Manage Sites </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -198,179 +204,69 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="green">
-                                <i class="material-icons">assignment</i>
-                            </div>
-                            <h4 class="card-title">Maintained</h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Question ID</th>
-                                            <th>Target</th>
-                                            <th class="text-center">GAP</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($maintain as $row) { ?>
-                                            <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['question_label']; ?></td>
-                                                <td><?php echo $row['question_target']; ?></td>
-                                                <td class="td-actions text-center"><?php echo $row['qual_gap']; ?></td>
-                                            </tr>
-                                        <?php } ?>
-                                        </tbody>
-                                    </table>
+                            <form method="post" action="<?php echo base_url('index.php/sites/edit/'.$data['site_id']); ?>"
+                                  class="form-horizontal">
+                                <div class="card-header card-header-text" data-background-color="rose">
+                                    <h4 class="card-title">Add Form</h4>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="blue">
-                                <i class="material-icons">assignment</i>
-                            </div>
-                            <h4 class="card-title">Weak Priority</h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Question ID</th>
-                                            <th>Target</th>
-                                            <th class="text-center">GAP</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($weak as $row) { ?>
-                                            <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['question_label']; ?></td>
-                                                <td><?php echo $row['question_target']; ?></td>
-                                                <td class="td-actions text-center"><?php echo $row['qual_gap']; ?></td>
-                                            </tr>
-                                        <?php } ?>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="orange">
-                                <i class="material-icons">assignment</i>
-                            </div>
-                            <h4 class="card-title">Medium Priority</h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Question ID</th>
-                                            <th>Target</th>
-                                            <th class="text-center">GAP</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($medium as $row) { ?>
-                                            <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['question_label']; ?></td>
-                                                <td><?php echo $row['question_target']; ?></td>
-                                                <td class="td-actions text-center"><?php echo $row['qual_gap']; ?></td>
-                                            </tr>
-                                        <?php } ?>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-header card-header-icon" data-background-color="red">
-                                <i class="material-icons">assignment</i>
-                            </div>
-                            <h4 class="card-title">High Priority</h4>
-                            <div class="card-content">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="text-center">#</th>
-                                            <th>Question ID</th>
-                                            <th>Target</th>
-                                            <th class="text-center">GAP</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php $no = 1;
-                                        foreach ($strong as $row) { ?>
-                                            <tr>
-                                                <td class="text-center"><?php echo $no++; ?></td>
-                                                <td><?php echo $row['question_label']; ?></td>
-                                                <td><?php echo $row['question_target']; ?></td>
-                                                <td class="td-actions text-center"><?php echo $row['qual_gap']; ?></td>
-                                            </tr>
-                                        <?php } ?>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                                <div class="card-content">
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Site Name</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" value="<?php echo $data['site_name']; ?>" name="nama" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">City</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" value="<?php echo $data['site_city']; ?>" name="city" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Province</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" value="<?php echo $data['site_province']; ?>" name="province" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Description</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <textarea class="form-control" name="description" required><?php echo $data['site_description']; ?></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">URL</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" value="<?php echo $data['site_url']; ?>" id="url" name="url" required>
+                                                <iframe src="<?php echo $data['site_url']; ?>" width="100%" height="500"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-fill btn-rose">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.creative-tim.com/">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
     </div>
+</div>
 </div>
 </body>
 <!--   Core JS Files   -->
@@ -416,17 +312,11 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/material-dashboard.js"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
-<script type="text/javascript">
+<script>
     $(document).ready(function () {
-
-        // Javascript method's body can be found in <?php echo base_url() . 'assets/'; ?>js/demos.js
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
-    });
+        console.log('window')
+    })
 </script>
-
-
 <!-- Mirrored from demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 15:38:09 GMT -->
 </html></title>
 </head>
