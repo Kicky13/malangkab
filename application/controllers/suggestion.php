@@ -27,7 +27,10 @@ class Suggestion extends CI_Controller {
         if (isset($_SESSION['loggedIn'])){
             if ($_SESSION['level'] == 1){
                 $data = $this->m_suggest->getDimensionData();
-                $this->load->view('superadmin/suggestView', array('data' => $data, 'site' => $site));
+                $blue = $this->m_suggest->getDimensionGraph($site);
+                $green = $this->m_suggest->getGAPGraph($site);
+                $rose = $this->m_suggest->getGFGraph($site);
+                $this->load->view('superadmin/suggestView', array('data' => $data, 'site' => $site, 'bluegraph' => $blue, 'greengraph' => $green, 'rosegraph' => $rose));
             } else {
                 echo 'Forbidden Accesss';
             }

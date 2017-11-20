@@ -206,7 +206,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <section <?php echo ($count['all'] == 0) ? "" : "hidden"; ?>>
-                            <h4>Maaf, Evaluasi untuk Web ini belum dikalkulasi</h4>
+                            <h3>Maaf, Web ini belum di Evaluasi</h3>
                         </section>
                         <section <?php echo ($count['all'] == 0) ? "hidden" : ""; ?>>
                         <div class="card">
@@ -221,7 +221,7 @@
                                     <p>Untuk <?php echo $count['primary']; ?> Elemen yang menjadi First Priority :</p>
                                     <ul>
                                         <?php foreach ($strong as $value){ ?>
-                                        <li>Elemen <?php echo $value['question_label']; ?> tentang <?php echo $value['question_target']; ?></li>
+                                        <li>Elemen <?php echo $value['question_label']; ?> tentang <?php echo $value['question_target']; ?> dengan Nilai GAP <?php echo $value['qual_gap']; ?></li>
                                         <?php } ?>
                                     </ul>
                                 </section>
@@ -229,7 +229,7 @@
                                     <p>Untuk <?php echo $count['secondary']; ?> Elemen yang menjadi Secondary Priority :</p>
                                     <ul>
                                         <?php foreach ($medium as $value){ ?>
-                                        <li>Elemen <?php echo $value['question_label']; ?> tentang <?php echo $value['question_target']; ?></li>
+                                        <li>Elemen <?php echo $value['question_label']; ?> tentang <?php echo $value['question_target']; ?> dengan Nilai GAP <?php echo $value['qual_gap']; ?></li>
                                         <?php } ?>
                                     </ul>
                                 </section>
@@ -237,10 +237,11 @@
                                     <p>Untuk <?php echo $count['tersier']; ?> Elemen yang cukup dipertahankan saja :</p>
                                     <ul>
                                         <?php foreach ($weak as $value){ ?>
-                                        <li>Elemen <?php echo $value['question_label']; ?> untuk <?php echo $value['question_target']; ?></li>
+                                        <li>Elemen <?php echo $value['question_label']; ?> untuk <?php echo $value['question_target']; ?> dengan Nilai GAP <?php echo $value['qual_gap']; ?></li>
                                         <?php } ?>
                                     </ul>
                                 </section>
+                                <p>Kesimpulan diatas berdasarkan patokan nilai : < 0.3 = Maintain Priority atau Cukup Dipertahankan, 0,3 < 0.6 = Secondary Priority atau Butuh diperbaiki setelah primary, > 0.6 Primary Priority atau sangat perlu dibenahi.</p>
                             </div>
                         </div>
                         </section>

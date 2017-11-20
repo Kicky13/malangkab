@@ -207,11 +207,11 @@
                     <div class="col-md-4">
                         <div class="card card-chart">
                             <div class="card-header" data-background-color="rose" data-header-animation="true">
-                                <div></div>
+                                <div><canvas id="rose"></canvas></div>
                             </div>
                             <div class="card-content">
-                                <h4 class="card-title">Response Submitted</h4>
-                                <p class="category">Submitted Responses By Respondent</p>
+                                <h4 class="card-title">Goal And Fact</h4>
+                                <p class="category">Graph Values Between Goal And Fact Point</p>
                             </div>
                             <div class="card-footer">
                                 <div class="stats">
@@ -223,7 +223,7 @@
                     <div class="col-md-4">
                         <div class="card card-chart">
                             <div class="card-header" data-background-color="green" data-header-animation="true">
-                                <div class="ct-chart" id="dailySalesChart"></div>
+                                <div><canvas id="green"></canvas></div>
                             </div>
                             <div class="card-content">
                                 <h4 class="card-title">GAP Values</h4>
@@ -240,7 +240,7 @@
                     <div class="col-md-4">
                         <div class="card card-chart">
                             <div class="card-header" data-background-color="blue" data-header-animation="true">
-                                <div class="ct-chart" id="completedTasksChart"></div>
+                                <div><canvas id="blue"></canvas></div>
                             </div>
                             <div class="card-content">
                                 <h4 class="card-title">Dimension Priority</h4>
@@ -294,41 +294,6 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.creative-tim.com/">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
     </div>
 </div>
 </body>
@@ -375,7 +340,122 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/material-dashboard.js"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
+<script src="<?php echo base_url() . 'assets/'; ?>admin/js/chartjs.js"></script>
 <script type="text/javascript">
+    var ctx = document.getElementById("blue");
+    var BarChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels:["<?php echo $bluegraph[0]['dimension_label']; ?>", "<?php echo $bluegraph[1]['dimension_label']; ?>", "<?php echo $bluegraph[2]['dimension_label']; ?>", "<?php echo $bluegraph[3]['dimension_label']; ?>", "<?php echo $bluegraph[4]['dimension_label']; ?>"],
+            datasets: [{
+                label: "Total",
+                backgroundColor: "rgba(0, 0, 0, 0)",
+                borderColor: "rgba(255, 255, 255, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(255, 255, 255, 1)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $bluegraph[0]['dimension_point']; ?>,
+                    <?php echo $bluegraph[1]['dimension_point']; ?>,
+                    <?php echo $bluegraph[2]['dimension_point']; ?>,
+                    <?php echo $bluegraph[3]['dimension_point']; ?>,
+                    <?php echo $bluegraph[4]['dimension_point']; ?>]
+            }, {
+                label: "Primary",
+                backgroundColor: "rgba(0, 0, 0, 0)",
+                borderColor: "rgba(255, 0, 0, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(255, 0, 0, 1)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $bluegraph[0]['dimension_primary']; ?>,
+                    <?php echo $bluegraph[1]['dimension_primary']; ?>,
+                    <?php echo $bluegraph[2]['dimension_primary']; ?>,
+                    <?php echo $bluegraph[3]['dimension_primary']; ?>,
+                    <?php echo $bluegraph[4]['dimension_primary']; ?>]
+            }, {
+                label: "Secondary",
+                backgroundColor: "rgba(0, 0, 0, 0)",
+                borderColor: "rgba(219, 12, 232, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(219, 12, 232, 1)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $bluegraph[0]['dimension_secondary']; ?>,
+                    <?php echo $bluegraph[1]['dimension_secondary']; ?>,
+                    <?php echo $bluegraph[2]['dimension_secondary']; ?>,
+                    <?php echo $bluegraph[3]['dimension_secondary']; ?>,
+                    <?php echo $bluegraph[4]['dimension_secondary']; ?>]
+            }]
+        }
+    });
+    var ctx = document.getElementById("green");
+    var BarChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels:["<?php echo $greengraph[0]['question_label']; ?>", "<?php echo $greengraph[1]['question_label']; ?>", "<?php echo $greengraph[2]['question_label']; ?>", "<?php echo $greengraph[3]['question_label']; ?>", "<?php echo $greengraph[4]['question_label']; ?>"],
+            datasets: [{
+                label: "GAP",
+                backgroundColor: "rgba(0, 0, 0, 0.7)",
+                borderColor: "rgba(0, 0, 0, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $greengraph[0]['qual_gap']; ?>,
+                    <?php echo $greengraph[1]['qual_gap']; ?>,
+                    <?php echo $greengraph[2]['qual_gap']; ?>,
+                    <?php echo $greengraph[3]['qual_gap']; ?>,
+                    <?php echo $greengraph[4]['qual_gap']; ?>]
+            }]
+        }
+    });
+    var ctx = document.getElementById("rose");
+    var BarChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels:["<?php echo $rosegraph[0]['dimension_label']; ?>", "<?php echo $rosegraph[1]['dimension_label']; ?>", "<?php echo $rosegraph[2]['dimension_label']; ?>", "<?php echo $rosegraph[3]['dimension_label']; ?>", "<?php echo $rosegraph[4]['dimension_label']; ?>"],
+            datasets: [{
+                label: "Fact",
+                backgroundColor: "rgba(0, 0, 0, 0)",
+                borderColor: "rgba(255, 255, 255, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(255, 255, 255, 1)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $rosegraph[0]['avg_f']; ?>,
+                    <?php echo $rosegraph[1]['avg_f']; ?>,
+                    <?php echo $rosegraph[2]['avg_f']; ?>,
+                    <?php echo $rosegraph[3]['avg_f']; ?>,
+                    <?php echo $rosegraph[4]['avg_f']; ?>]
+            }, {
+                label: "Goal",
+                backgroundColor: "rgba(0, 0, 0, 0)",
+                borderColor: "rgba(0, 0, 0, 0.7)",
+                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                pointBackgroundColor: "rgba(0, 0, 0, 1)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointBorderWidth: 1,
+                data: [
+                    <?php echo $rosegraph[0]['avg_g']; ?>,
+                    <?php echo $rosegraph[1]['avg_g']; ?>,
+                    <?php echo $rosegraph[2]['avg_g']; ?>,
+                    <?php echo $rosegraph[3]['avg_g']; ?>,
+                    <?php echo $rosegraph[4]['avg_g']; ?>]
+            }]
+        }
+    });
     $(document).ready(function () {
 
     });

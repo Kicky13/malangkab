@@ -84,7 +84,7 @@
                 </div>
             </div>
             <ul class="nav">
-                <li class="active">
+                <li>
                     <a href="<?php echo base_url('index.php/dashboard'); ?>">
                         <i class="material-icons">dashboard</i>
                         <p>Dashboard</p>
@@ -126,7 +126,7 @@
                         </ul>
                     </div>
                 </li>
-                <li>
+                <li class="active">
                     <a data-toggle="collapse" href="#laporan">
                         <i class="material-icons">assignment</i>
                         <p>Report
@@ -141,7 +141,7 @@
                             <li>
                                 <a href="<?php echo base_url('index.php/report/resultAnalysis/0'); ?>">Analysis</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="#">Suggestion</a>
                             </li>
                         </ul>
@@ -166,7 +166,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> Dashboard </a>
+                    <a class="navbar-brand" href="#"> Suggestion </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -198,7 +198,7 @@
                     <div class="col-md-12">
                         <div class="card card-plain">
                             <div class="card-content">
-                                <h4><a href="<?php echo base_url('index.php/suggestion/viewSuggestion/'.$value['site_id']); ?>"><?php echo $value['site_city']; ?></a></h4>
+                                <h4>Klik Untuk Memilih > <a href="<?php echo base_url('index.php/suggestion/viewSuggestion/'.$value['site_id']); ?>"><?php echo $value['site_city']; ?></a></h4>
                                 <div class="iframe-container hidden-sm hidden-xs">
                                     <iframe src="<?php echo $value['site_url']; ?>">
                                         <p>Your browser does not support iframes.</p>

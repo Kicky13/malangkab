@@ -11,67 +11,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sites.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/sites.php">
+      <file leaf-file-name="suggestDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="301">
+              <caret line="208" column="63" lean-forward="false" selection-start-line="208" selection-start-column="63" selection-end-line="208" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m_sites.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/m_sites.php">
+      <file leaf-file-name="suggestIndex.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestIndex.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <marker date="1511171470169" expanded="true" signature="253:272" ph="SELECT * FRO... sites" />
-                <marker date="1511171470169" expanded="true" signature="400:435" ph="SELECT * FRO... sites" />
-                <marker date="1511171470169" expanded="true" signature="400:436" ph="SELECT * FRO... sites" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitesView.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="120" column="61" lean-forward="true" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
-              <folding>
-                <marker date="1511165580901" expanded="true" signature="6262:6291" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responseView.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2796">
-              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="295">
+              <caret line="200" column="54" lean-forward="false" selection-start-line="200" selection-start-column="54" selection-end-line="200" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sitesEdit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesEdit.php">
+      <file leaf-file-name="suggestView.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="246" column="147" lean-forward="false" selection-start-line="246" selection-start-column="147" selection-end-line="246" selection-end-column="147" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminAdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminAdd.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="193" column="8" lean-forward="true" selection-start-line="193" selection-start-column="8" selection-end-line="258" selection-end-column="10" />
+            <state relative-caret-position="1191">
+              <caret line="443" column="36" lean-forward="false" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -121,8 +85,6 @@
         <option value="$PROJECT_DIR$/application/views/superadmin/suggest.php" />
         <option value="$PROJECT_DIR$/application/models/m_report.php" />
         <option value="$PROJECT_DIR$/application/controllers/report.php" />
-        <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
-        <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/analysis.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/dimensionAdd.php" />
@@ -135,15 +97,17 @@
         <option value="$PROJECT_DIR$/application/views/superadmin/questionView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/responseDetail.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/responseView.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestIndex.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/suggestView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/adminView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/sitesView.php" />
         <option value="$PROJECT_DIR$/application/controllers/sites.php" />
         <option value="$PROJECT_DIR$/application/models/m_sites.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/sitesAdd.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/sitesEdit.php" />
+        <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
+        <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestView.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestIndex.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
       </list>
     </option>
   </component>
@@ -210,6 +174,24 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="superadmin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -278,12 +260,12 @@
       <workItem from="1510123073140" duration="4058000" />
       <workItem from="1510344208772" duration="688000" />
       <workItem from="1511120415585" duration="5713000" />
-      <workItem from="1511163618992" duration="6049000" />
+      <workItem from="1511163618992" duration="16169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157250000" />
+    <option name="totallyTimeSpent" value="167370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -507,33 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="42" column="73" lean-forward="true" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-          <folding>
-            <marker date="1511124312294" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
-            <marker date="1511124312294" expanded="true" signature="405:424" ph="SELECT * FRO... sites" />
-            <marker date="1511124312294" expanded="true" signature="655:809" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="655:810" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="655:840" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="1076:1263" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="1501:1714" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="1952:2140" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="2495:2684" ph="SELECT * FRO... question_analysis" />
-            <marker date="1511124312294" expanded="true" signature="2748:2793" ph="SELECT * FRO... dimension" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestEx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -622,30 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="113" column="21" lean-forward="false" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestIndex.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="113" column="21" lean-forward="false" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/adminView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -670,11 +601,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="196" column="54" lean-forward="true" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="250" column="53" lean-forward="true" selection-start-line="250" selection-start-column="53" selection-end-line="250" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2796">
           <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="120" column="61" lean-forward="true" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+          <folding>
+            <marker date="1511165580901" expanded="true" signature="6262:6291" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,24 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="196" column="54" lean-forward="true" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="120" column="61" lean-forward="true" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
-          <folding>
-            <marker date="1511165580901" expanded="true" signature="6262:6291" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/sites.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -716,10 +655,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesEdit.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/suggestion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="246" column="147" lean-forward="false" selection-start-line="246" selection-start-column="147" selection-end-line="246" selection-end-column="147" />
+        <state relative-caret-position="459">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_suggest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <marker date="1511201297495" expanded="true" signature="263:286" ph="SELECT * FRO... dimension" />
+            <marker date="1511201297495" expanded="true" signature="405:424" ph="SELECT * FRO... sites" />
+            <marker date="1511201297495" expanded="true" signature="655:809" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="655:810" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="655:840" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="1076:1263" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="1501:1714" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="1952:2140" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="2495:2684" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="2748:2793" ph="SELECT * FRO... dimension" />
+            <marker date="1511201297495" expanded="true" signature="4055:4155" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4055:4156" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4055:4182" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4055:4183" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4055:4214" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4055:4226" ph="SELECT * FRO... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4447:4712" ph="SELECT ROUND... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4447:4713" ph="SELECT ROUND... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4447:4742" ph="SELECT ROUND... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4447:4743" ph="SELECT ROUND... question_analysis" />
+            <marker date="1511201297495" expanded="true" signature="4447:4779" ph="SELECT ROUND... question_analysis" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="200" column="54" lean-forward="false" selection-start-line="200" selection-start-column="54" selection-end-line="200" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="208" column="63" lean-forward="false" selection-start-line="208" selection-start-column="63" selection-end-line="208" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="443" column="36" lean-forward="false" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
           <folding />
         </state>
       </provider>
