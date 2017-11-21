@@ -221,6 +221,7 @@
                                         <?php $no = 1;
                                         foreach ($data as $row){ ?>
                                             <tr>
+                                                <input id="id" type="hidden" value="<?php echo $row['question_label']; ?>"></input>
                                                 <td class="text-center"><?php echo $row['question_label']; ?></td>
                                                 <td><?php echo $row['dimension_name']; ?></td>
                                                 <td><?php echo $row['question_content']; ?></td>
@@ -228,9 +229,9 @@
                                                     <a href="<?php echo base_url('index.php/question/formEdit/'.$row['question_id'])?>" type="button" rel="tooltip" class="btn btn-success btn-simple">
                                                         <i class="material-icons">edit</i>
                                                     </a>
-                                                    <a href="<?php echo base_url('index.php/question/delete/'.$row['question_id'])?>" type="button" rel="tooltip" class="btn btn-danger btn-simple">
+                                                    <button id="hapus" type="button" value="<?php echo $row['question_id']; ?>" rel="tooltip" class="btn btn-danger btn-simple">
                                                         <i class="material-icons">close</i>
-                                                    </a>
+                                                    </button>
                                                 </td>
                                             </tr>
                                         <?php } ?>
@@ -243,41 +244,6 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.creative-tim.com/">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
     </div>
 </div>
 </body>
@@ -323,13 +289,18 @@
 <script src="<?php echo base_url().'assets/'; ?>admin/js/material-dashboard.js"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="<?php echo base_url().'assets/'; ?>admin/js/demo.js"></script>
-<script type="text/javascript">
+<script>
     $(document).ready(function() {
-
-        // Javascript method's body can be found in <?php echo base_url().'assets/'; ?>js/demos.js
-        demo.initDashboardPageCharts();
-
-        demo.initVectorMap();
+        console.log('hai');
+        var id = $('#id').val();
+        $('#hapus').click(function () {
+            console.log('klik');
+            swal(
+                'The Internet?',
+                $('#id').val(),
+                'question'
+            )
+        })
     });
 </script>
 

@@ -258,7 +258,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-fill btn-rose">Submit</button>
+                                    <button type="submit" class="btn btn-fill btn-rose">Update</button>
                             </form>
                         </div>
                     </div>

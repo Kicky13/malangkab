@@ -213,20 +213,20 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <label class="col-sm-2 label-on-left">Question Code</label>
-                                        <div class="col-sm-10">
-                                            <div class="form-group label-floating is-empty">
-                                                <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="code" readonly>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
                                         <label class="col-sm-2 label-on-left">Question</label>
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
                                                 <input type="text" class="form-control" name="question" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="col-sm-2 label-on-left">Target</label>
+                                        <div class="col-sm-10">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="control-label"></label>
+                                                <input type="text" class="form-control" name="target" required>
                                             </div>
                                         </div>
                                     </div>

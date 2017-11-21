@@ -117,10 +117,10 @@
                     </a>
                     <div class="collapse" id="pertanyaan">
                         <ul class="nav">
-                            <li class="active">
+                            <li>
                                 <a href="<?php echo base_url('index.php/dimension/viewDimension'); ?>">Dimension</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="<?php echo base_url('index.php/question/viewQuestion'); ?>">Question</a>
                             </li>
                         </ul>
@@ -166,7 +166,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> Update Dimension </a>
+                    <a class="navbar-brand" href="#"> Add Question </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -196,36 +196,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <form method="post" action="<?php echo base_url('index.php/dimension/update/'.$data['dimension_id']); ?>" class="form-horizontal">
+                            <form method="post" action="<?php echo base_url('index.php/question/edit/'.$data['question_id']); ?>" class="form-horizontal">
                                 <div class="card-header card-header-text" data-background-color="rose">
-                                    <h4 class="card-title">Update Form</h4>
+                                    <h4 class="card-title">Add Form</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="row">
-                                        <label class="col-sm-2 label-on-left">Label Code</label>
+                                        <label class="col-sm-2 label-on-left">Question</label>
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="label" value="<?php echo $data['dimension_label']; ?>" disabled>
-                                                <span class="help-block">Two Alphabet represent dimension name, Capslock must on. Ex : R, CS, NS</span>
+                                                <input value="<?php echo $data['question_content']; ?>" type="text" class="form-control" name="question" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <label class="col-sm-2 label-on-left">Dimension Name</label>
+                                        <label class="col-sm-2 label-on-left">Target</label>
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="name" value="<?php echo $data['dimension_name']; ?>" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <label class="col-sm-2 label-on-left">Explanation</label>
-                                        <div class="col-sm-10">
-                                            <div class="form-group label-floating is-empty">
-                                                <label class="control-label"></label>
-                                                <input type="text" class="form-control" name="expl" value="<?php echo $data['dimension_expl']; ?>" required>
+                                                <input value="<?php echo $data['question_target']; ?>" type="text" class="form-control" name="target" required>
                                             </div>
                                         </div>
                                     </div>
@@ -236,41 +226,6 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.creative-tim.com/">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
     </div>
 </div>
 </body>

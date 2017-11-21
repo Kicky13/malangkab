@@ -35,13 +35,33 @@ class Question extends CI_Controller {
             redirect('/login');
         }
     }
+    public function formEdit($id)
+    {
+        if (isset($_SESSION['loggedIn'])){
+            if ($_SESSION['level'] == 1){
+                $data = $this->m_question->getDataedit($id);
+                $this->load->view('superadmin/questionEdit', array('data' => $data));
+            } else {
+                echo 'Forbidden Access';
+            }
+        } else {
+            redirect('/login');
+        }
+    }
     public function add()
     {
         $dimension = $_POST['dimension'];
         $code = $this->getCode($dimension);
         $question = $_POST['question'];
-        $this->m_question->add($dimension, $code, $question);
+        $target = $_POST['target'];
+        $this->m_question->add($dimension, $code, $question, $target);
         redirect('/question/viewQuestion');
+    }
+    public function edit($id)
+    {
+        $question = $_POST['question'];
+        $target = $_POST['target'];
+        $this->m_question->edit($id, $question, $target);
     }
     public function getCode($id)
     {
