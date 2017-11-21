@@ -253,8 +253,8 @@
                                         <div class="col-sm-10">
                                             <div class="form-group label-floating is-empty">
                                                 <label class="control-label"></label>
-                                                <input type="text" class="form-control" id="url" name="url" required>
-                                                <iframe width="100%" height="500"></iframe>
+                                                <input placeholder="Please Add http or https" type="text" class="form-control" id="url" name="url" required>
+                                                <iframe width="100%" height="500" id="web"></iframe>
                                             </div>
                                         </div>
                                     </div>
@@ -314,8 +314,12 @@
 <script src="<?php echo base_url() . 'assets/'; ?>admin/js/demo.js"></script>
 <script>
     $(document).ready(function () {
-        console.log('window')
-    })
+        console.log('window');
+        $('#url').keyup(function () {
+            console.log('ganti');
+            $('#web').attr('src', $('#url').val());
+        });
+    });
 </script>
 <!-- Mirrored from demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 15:38:09 GMT -->
 </html></title>

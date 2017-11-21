@@ -11,31 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="suggestDetail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestDetail.php">
+      <file leaf-file-name="questionaire.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/public/questionaire.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="208" column="63" lean-forward="false" selection-start-line="208" selection-start-column="63" selection-end-line="208" selection-end-column="63" />
+            <state relative-caret-position="323">
+              <caret line="95" column="85" lean-forward="false" selection-start-line="95" selection-start-column="85" selection-end-line="95" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suggestIndex.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestIndex.php">
+      <file leaf-file-name="bio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/public/bio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="200" column="54" lean-forward="false" selection-start-line="200" selection-start-column="54" selection-end-line="200" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suggestView.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/superadmin/suggestView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1191">
-              <caret line="443" column="36" lean-forward="false" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="98" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -75,7 +65,6 @@
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
         <option value="$PROJECT_DIR$/application/views/public/web.php" />
         <option value="$PROJECT_DIR$/application/views/public/bio.php" />
-        <option value="$PROJECT_DIR$/application/views/public/questionaire.php" />
         <option value="$PROJECT_DIR$/application/controllers/dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/controllers/questionaire.php" />
@@ -101,13 +90,14 @@
         <option value="$PROJECT_DIR$/application/views/superadmin/sitesView.php" />
         <option value="$PROJECT_DIR$/application/controllers/sites.php" />
         <option value="$PROJECT_DIR$/application/models/m_sites.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/sitesAdd.php" />
-        <option value="$PROJECT_DIR$/application/views/superadmin/sitesEdit.php" />
         <option value="$PROJECT_DIR$/application/controllers/suggestion.php" />
         <option value="$PROJECT_DIR$/application/models/m_suggest.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/suggestView.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/suggestIndex.php" />
         <option value="$PROJECT_DIR$/application/views/superadmin/suggestDetail.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/sitesAdd.php" />
+        <option value="$PROJECT_DIR$/application/views/superadmin/sitesEdit.php" />
+        <option value="$PROJECT_DIR$/application/views/public/questionaire.php" />
       </list>
     </option>
   </component>
@@ -173,7 +163,7 @@
               <item name="malangkab" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="superadmin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="malangkab" type="b2602c69:ProjectViewProjectNode" />
@@ -260,12 +250,12 @@
       <workItem from="1510123073140" duration="4058000" />
       <workItem from="1510344208772" duration="688000" />
       <workItem from="1511120415585" duration="5713000" />
-      <workItem from="1511163618992" duration="16169000" />
+      <workItem from="1511163618992" duration="18378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167370000" />
+    <option name="totallyTimeSpent" value="169579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -394,20 +384,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/public/web.php" />
-    <entry file="file://$PROJECT_DIR$/application/views/public/bio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="109" column="76" lean-forward="true" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/public/questionaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -601,22 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesAdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="196" column="54" lean-forward="true" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="250" column="53" lean-forward="true" selection-start-line="250" selection-start-column="53" selection-end-line="250" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/superadmin/responseView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2796">
@@ -713,6 +673,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1191">
           <caret line="443" column="36" lean-forward="false" selection-start-line="443" selection-start-column="36" selection-end-line="443" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="255" column="82" lean-forward="true" selection-start-line="255" selection-start-column="82" selection-end-line="255" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/superadmin/sitesEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="320" column="7" lean-forward="true" selection-start-line="320" selection-start-column="7" selection-end-line="320" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="98" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public/questionaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="95" column="85" lean-forward="false" selection-start-line="95" selection-start-column="85" selection-end-line="95" selection-end-column="85" />
           <folding />
         </state>
       </provider>

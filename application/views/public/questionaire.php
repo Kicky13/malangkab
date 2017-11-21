@@ -86,6 +86,24 @@
                     </section>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            <div class="form-group">
+                                <label for="alamat">Web Pembanding</label>
+                                <input type="text" class="form-control" id="url"
+                                       placeholder="Masukkan Alaamat Web Pembanding" required>
+                            </div>
+                        </header>
+                        <div class="panel-body">
+                            <section id="unseen">
+                                <iframe id="web" width="100%" height="350px"></iframe>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
             <form role="form" method="post" action="<?php echo base_url('index.php/questionaire/submitResponse'); ?>">
                 <div class="row">
                     <div class="col-lg-12">
@@ -191,9 +209,11 @@
 <script src="<?php echo base_url() . 'assets/'; ?>user/js/themes.js"></script>
 <!-- end:javascript -->
 <script>
-    function next() {
-
-    }
+    $(document).ready(function () {
+        $('#url').keyup(function () {
+            $('#web').attr('src', $('#url').val());
+        });
+    });
 </script>
 
 <script type="text/javascript">if (self == top) {
